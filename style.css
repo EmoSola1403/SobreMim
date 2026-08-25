@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navmenu{
+    background-color: rgb(129, 28, 2);
+}
+nav a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 60px;
+   padding: 20px;
+}
+nav a:hover{
+    background-color: rgb(99, 0, 0);
+    border-radius: 15px;
+}
+.sobremim{
+    background-color: rgb(216, 216, 216);
+    height: 200px;
+    width:  1000px;
+    border-radius: 20px;
+    border: solid 2px rgb(116, 116, 116);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+}
+.icon{
+    width: 100px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.perfil{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #525252;
+}
