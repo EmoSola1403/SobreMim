@@ -4,16 +4,20 @@
 }
 #navmenu{
     background-color: rgb(129, 28, 2);
+    height: 55px;
 }
 nav a{
    text-decoration: none;
    color: #fff;
-   font-size: 60px;
+   font-size: 40px;
    padding: 20px;
 }
 nav a:hover{
-    background-color: rgb(99, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
+    color: rgb(129, 28, 2);
+    border: solid 3px rgb(129, 28, 2);
+    box-shadow: 2px 2px 0px rgb(129, 28, 2);
 }
 .sobremim{
     background-color: rgb(216, 216, 216);
@@ -22,7 +26,7 @@ nav a:hover{
     border-radius: 20px;
     border: solid 2px rgb(116, 116, 116);
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5px 5px 5px 5px;
